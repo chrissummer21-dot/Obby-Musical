@@ -166,7 +166,7 @@ local LINE_LIFETIME     = 2.0
 local MUSIC_DELAY       = LINE_LIFETIME
 local UP_COOLDOWN       = 2.0   -- segundos mínimos entre dos líneas Up
 
-local INITIAL_DELAY     = 2.0   -- ⏱️ espera antes de todo
+local INITIAL_DELAY     = 4.0   -- ⏱️ espera antes de todo
 local WORLD_LOAD_DELAY  = 3.0   -- ⏱️ dejar cargar mundo tras HRP
 
 ---------------------------------------------------------------------

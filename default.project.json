@@ -17,12 +17,15 @@
 
     "ReplicatedStorage": {
       "$className": "ReplicatedStorage",
-      "$ignoreUnknownInstances": true,
-      "NeonObby": {
-        "$className": "Folder",
-        "$path": "src/ReplicatedStorage/NeonObby",
-        "$ignoreUnknownInstances": true
-      }
+      "$path": "src/ReplicatedStorage",
+      "$ignoreUnknownInstances": true
+      
+    },
+
+    "StarterGui": {
+      "$className": "StarterGui",
+        "$path": "src/StarterGui"
     }
+   
   }
 }
