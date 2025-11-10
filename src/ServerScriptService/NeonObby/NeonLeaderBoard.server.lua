@@ -20,10 +20,10 @@ local function setupLeaderstats(player: Player)
 	timeVal.Value = 0
 	timeVal.Parent = ls
 
-	local completed = Instance.new("IntValue")
-	completed.Name = "Completed"      -- 0 / 1 si completó
-	completed.Value = 0
-	completed.Parent = ls
+		local completedRuns = Instance.new("IntValue")
+	completedRuns.Name = "CompletedRuns" -- partidas completadas históricas
+	completedRuns.Value = 0
+	completedRuns.Parent = ls
 
 	local bestPercent = Instance.new("IntValue")
 	bestPercent.Name = "BestPercent"  -- mejor % histórico
