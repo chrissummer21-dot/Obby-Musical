@@ -1,0 +1,28 @@
+{
+  "name": "MusicalObby",
+  "servePort": 34872,
+  "tree": {
+    "$className": "DataModel",
+    "$ignoreUnknownInstances": true,
+
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$ignoreUnknownInstances": true,
+      "NeonObby": {
+        "$className": "Folder",
+        "$path": "src/ServerScriptService/NeonObby",
+        "$ignoreUnknownInstances": true
+      }
+    },
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "$ignoreUnknownInstances": true,
+      "NeonObby": {
+        "$className": "Folder",
+        "$path": "src/ReplicatedStorage/NeonObby",
+        "$ignoreUnknownInstances": true
+      }
+    }
+  }
+}
